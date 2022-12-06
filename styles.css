@@ -1,0 +1,99 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+body {
+   margin: 50px;
+}
+* {
+   box-sizing: border-box;
+}
+a:link {
+   text-decoration: none;
+   color: #555;
+}
+a:visited {
+   text-decoration: none;
+   color: #555;
+}
+p {
+   display: block;
+   font-family: 'PT Mono', monospace;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 23px;
+   color: #555;
+   margin-bottom: 2em;
+}
+h1 {
+   display: block;        
+   font-family: 'PT Mono', monospace;
+   font-weight: 400;
+   font-size: 30px;
+   line-height: 20px;
+   color: #555;
+}
+.text {
+    font-size: 14px;
+    text-align: left;
+}
+.right {
+   float:right;
+   text-align: right; 
+}
+.columntop {
+   float: left;
+   width: 50%;
+   padding-bottom: 0px;
+}
+.column50 {
+   float: left;
+   width: 50%;
+   padding-bottom: 0px;
+   padding-right: 0px;
+   margin-bottom: -4px;
+}
+.columnTOP {
+   float: left;
+   width: 50%;
+   padding-bottom: 0px;
+   padding-right: 0px;
+   margin-bottom: -4px;
+}
+
+.column33 {
+   float: left;
+   width: 33.33%;
+   padding-bottom: 0px;
+   padding-right: 0px;
+   margin-bottom: -4px;
+}
+.column-one {
+   float: center;
+   width: 100%;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.row a {
+    display: flex;
+    color: #123456;
+}
+
+@media (max-width: 600px) {
+	h1 {
+	  font-size: 30px;
+	  line-height: 30px;
+	}
+	.column33 {
+	  width: 100%;
+	  padding-right: 0px;
+	}
+	.column50 {
+	  width: 100%;
+		padding-right: 0px;
+	}
+	.columnTOP {
+	  width: 50%;
+		padding-right: 0px;
+	}
+}
