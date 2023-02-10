@@ -83,17 +83,26 @@ h1 {
 	h1 {
 	  font-size: 25px;
 	  line-height: 30px;
-	}
+}
+.column-one {
+   float: center;
+   width: 100%;
+	padding-right: 0px;
+		padding-left: 0px;
+}
 	.column33 {
 	  width: 100%;
 	  padding-right: 0px;
+		padding-left: 0px;
 	}
 	.column50 {
 	  width: 100%;
 		padding-right: 0px;
+		padding-left: 0px;
 	}
 	.columnTOP {
 	  width: 50%;
 		padding-right: 0px;
+		padding-left: 0px;
 	}
 }
